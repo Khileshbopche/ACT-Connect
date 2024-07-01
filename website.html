@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> E-Commerce Flamkart website  </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://unpkg.com/ionicons@5.5.2/dist/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/ionicons@5.5.2/dist/css/ionicons.min.css">
+
+ 
+
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo10.png" width="160" height="50" alt="Footcap logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo10.png" width="190" height="50" alt="Footcap logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link"> Category </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Shop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="login.html" class="nav-action-btn">
+              <!-- <ion-icon name="person-outline" aria-hidden="true"></ion-icon> -->
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon> 
+              <span class="nav-action-text">Login </span>
+             
+            
+            </a>
+          </li>
+          <li>
+            <a href="singup.html" class="nav-action-btn">
+          
+              <ion-icon name="person-add-outline" aria-hidden="true"></ion-icon> 
+              <span class="nav-action-text"> Signup </span>
+             
+            </a>
+          </li>
+          <!-- <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text"> Signup </span>
+
+              <data class="nav-action-badge" value="" aria-hidden="true">
+                <a href="#" class="nav-action-btn"></a>
+              </data>
+            </button>
+          </li> -->
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value=""> Cart  <strong></strong></data>
+
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/logo.jpg')">
+        <div class="container">
+
+          <h2 class="h1 hero-title">
+            <!-- New Summer <strong>Shoes Collection</strong> -->
+            <marquee> <strong style="color: aqua;">Welcome to Flamkart</strong> </marquee>
+          </h2>
+
+           <!-- <p class="hero-text">
+            Competently expedite alternative benefits whereas leading-edge catalysts for change. Globally leverage
+            existing an
+            expanded array of leadership.
+          </p> -->
+
+          <!-- <button class="btn btn-primary">
+            <span>Shop Now</span>
+
+             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>  -->
+
+        </div>
+      </section>
+     
+     <!-- section 2  -->
+      <hr>
+     <h1 class="menu"> Special  Offers Shopping </h1>
+     <div class="slideshow-container">
+       <div class="mySlides fade">
+           <img src="https://images.unsplash.com/photo-1542992015-4a0b729b1385?q=80&w=1489&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width:100%">
+       </div>
+       <div class="mySlides fade">
+           <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width:100%">
+       </div>
+       <div class="mySlides fade">
+           <img src="https://images.unsplash.com/photo-1572584642822-6f8de0243c93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width:100%">
+       </div>
+       <div class="mySlides fade">
+         <img src="https://images.unsplash.com/photo-1561069934-eee225952461?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width:100%">
+     </div>
+     </div>
+     <br>
+     <div style="text-align:center">
+       <span class="dot"></span> 
+       <span class="dot"></span> 
+       <span class="dot"></span>
+       <span class="dot"></span> 
+     </div>
+<hr>
+<!--  section 3  -->
+
+
+  <div class="">
+  <p class="para" style="text-align: center;">Find the best products at the best prices.</p>
+  <h2  class="shophead"> Shop By  Category</h2>
+
+</div>
+
+<!-- section 4 -->
+
+<section class="show-categories"
+data-aos="zoom-out"
+data-aos-duration="2000">
+<div class="cat" class="cat" onclick="getValue('decoration')">
+  <a href="buttonSlider.html">
+    <img src="homepage/sale.jpg" alt="" class="cat-image" />
+  </a>
+</div>
+<div
+  class="cat"
+  onclick="getValue('Shoes')"
+  data-aos="zoom-out"
+  data-aos-duration="2000"
+>
+  <a href="buttonSlider.html">
+    <img
+      src="homepage/footwear.jpg"
+      alt=""
+      class="cat-image"
+    />
+  </a>
+</div>
+<div
+  class="cat"
+  class="cat"
+  onclick="getValue('sunglasses')"
+  data-aos="zoom-out"
+  data-aos-duration="2000"
+>
+  <a href="buttonSlider.html">
+    <img src="homepage/glasses.jpg" alt="" class="cat-image" />
+  </a>
+</div>
+<div
+  class="cat"
+  onclick="getValue('tops')"
+  data-aos="zoom-out"
+  data-aos-duration="2000"
+>
+  <a href="buttonSlider.html">
+    <img src="homepage/gloves.jpg" alt="" class="cat-image" />
+  </a>
+</div>
+<div
+  class="cat"
+  onclick="getValue('womens-bags')"
+  data-aos="zoom-out"
+  data-aos-duration="2000"
+>
+  <a href="buttonSlider.html">
+    <img
+      src="homepage/handbags.jpg"
+      alt=""
+      class="cat-image"
+    />
+  </a>
+</div>
+<div
+  class="cat"
+  onclick="getValue('Jewellery')"
+  data-aos="zoom-out"
+  data-aos-duration="2000"
+>
+  <a href="buttonSlider.html">
+    <img
+      src="homepage/jewellory.jpg"
+      alt=""
+      class="cat-image"
+    />
+  </a>
+</div>
+
+<div
+  class="cat"
+  onclick="getValue('Perfumes')"
+  data-aos="zoom-out"
+  data-aos-duration="2000"
+>
+  <a href="buttonSlider.html">
+    <img href="#abc" src="homepage/perfumes.jpg" alt="" />
+  </a>
+</div>
+
+<div
+  class="cat"
+  onclick="getValue('skincare')"
+  data-aos="zoom-out"
+  data-aos-duration="2000"
+>
+  <a href="buttonSlider.html">
+    <img src="homepage/premium.jpg" alt="" class="cat-image" />
+  </a>
+</div>
+<div
+  class="cat"
+  onclick="getValue('Shirts')"
+  data-aos="zoom-out"
+  data-aos-duration="2000"
+>
+  <a href="buttonSlider.html">
+    <img src="homepage/cloths.jpg" alt="" class="cat-image" />
+  </a>
+</div>
+</section>
+<hr>
+                  <!--  section 5  -->
+                    <!-- slide image footer top-->
+                     <br>
+<div class="container">
+  <h1 style="text-align: center;"> Collection of Product </h1>
+  <br>
+  <br>
+  <div class="slider-wrapper">
+    <button id="prev-slide" class="slide-button material-symbols-rounded">
+      <
+    </button>
+    <ul class="image-list">
+      <img class="image-item" src="image/shirt1.jpeg" alt="img-1" />
+      <img class="image-item" src="image/shirt2.jpeg" alt="img-2" />
+      <img class="image-item" src="image/shrit3.jpg" alt="img-3" />
+      <img class="image-item" src="image/shirt4.jpeg" alt="img-4" />
+      <img class="image-item" src="image/shirt6.jpg" alt="img-5" />
+      <img class="image-item" src="image/shirt7.jpeg" alt="img-6" />
+      <img class="image-item" src="image/shirt8.png" alt="img-7" />
+      <img class="image-item" src="image/shirt9.jpg" alt="img-8" />
+      <img class="image-item" src="image/shirt10.jpg" alt="img-9" />
+      <img class="image-item" src="image/shirt11.jpeg" alt="img-10" />
+      
+    </ul>
+    <button id="next-slide" class="slide-button material-symbols-rounded">
+      >
+    </button>
+  </div>
+  <div class="slider-scrollbar">
+    <div class="scrollbar-track">
+      <div class="scrollbar-thumb"></div>
+    </div>
+  </div>
+</div>
+
+         
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo10.png" width="160" height="50" alt="Footcap logo">
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-Whatsapp"></ion-icon>
+             
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li>
+              <address class="footer-link">
+                <ion-icon name="location"></ion-icon>
+
+                <span class="footer-link-text">
+                    Bhopal 
+                </span>
+              </address>
+            </li>
+
+            <li>
+              <a href="tel:+557343673257" class="footer-link">
+                <ion-icon name="call"></ion-icon>
+
+                <span class="footer-link-text">+557343673257</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="mail"></ion-icon>
+
+                <span class="footer-link-text">flamkart@gmail.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">My Account</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text"> Sign In </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">View Cart</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text"> My Wishlist</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Track My Order </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text"> Help </span>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">  Customer Service  </p>
+
+            <table class="footer-table">
+              <tbody>
+
+                <tr class="table-row">
+                  <!-- <th class="table-head" scope="row">Mon - Tue:</th> -->
+
+                  <td class="table-data"> Contact us </td>
+                </tr>
+
+                <tr class="table-row">
+                  <!-- <th class="table-head" scope="row">Wed:</th> -->
+
+                  <td class="table-data"> Returns  </td>
+                </tr>
+
+                <tr class="table-row">
+                  <!-- <th class="table-head" scope="row">Fri:</th> -->
+
+                  <td class="table-data"> FAQ </td>
+                </tr>
+
+                <tr class="table-row">
+                  <!-- <th class="table-head" scope="row">Sat:</th> -->
+
+                  <td class="table-data"> Shipping Policy </td>
+                </tr>
+
+                <tr class="table-row">
+                  <!-- <th class="table-head" scope="row">Sun:</th> -->
+
+                  <td class="table-data"> Exchange Policy </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="newsletter-text">
+              Subscribe to our newsletter to get the latest updates and offers.
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          ©2024 All rights reserved by <a href="#" class="copyright-link"> Flamkart  Powered by Act T Connect</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
